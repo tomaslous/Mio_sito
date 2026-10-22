@@ -1,10 +1,10 @@
 body {
-  /* Sfondo con immagine adattabile a tutto schermo */
-  background-image: url("img/sfondo.jpg");
+  background-color: #b8d8f5;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),
+    url("img/pngtree-abstract-cloudy-background-beautiful-natural-streaks-of-sky-and-clouds-red-image_15684333.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
   background-position: center;
-  
+  background-attachment: fixed;
   font-family: Arial, sans-serif;
   text-align: center;
   padding: 20px;
@@ -12,19 +12,29 @@ body {
 
 h1 {
   color: darkblue;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
 }
 
 .sotto {
-  color: gray;
+  color: #333;
+  font-weight: bold;
 }
 
 .scheda {
-  background: white;
+  background: rgba(255, 255, 255, 0.92);
   max-width: 500px;
   margin: 20px auto;
   padding: 20px;
   border-radius: 12px;
   text-align: left;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: fadeInUp 1s ease-out;
+}
+
+.scheda:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
 }
 
 h2 {
@@ -38,19 +48,27 @@ h2 {
 
 .bottone {
   display: inline-block;
-  padding: 10px 20px;
-  margin: 5px;
-  background-color: darkblue;
+  background: darkblue;
   color: white;
+  padding: 8px 14px;
+  border-radius: 8px;
   text-decoration: none;
-  border-radius: 6px;
-  font-weight: bold;
-  /* Gestisce l'effetto fluido sia per l'ingrandimento che per il cambio colore */
-  transition: transform 0.3s ease, background-color 0.3s ease;
+  margin: 4px;
+  transition: background 0.2s ease, transform 0.2s ease;
 }
 
-/* Animazione al passaggio del mouse richiesta con il simbolo ✘ */
 .bottone:hover {
-  transform: scale(1.1);
-  background-color: teal;
+  background: orange;
+  transform: translateY(-2px) scale(1.02);
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
