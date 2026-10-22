@@ -1,0 +1,189 @@
+body {
+  background: lightblue;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: darkblue;
+}
+
+.sotto {
+  color: gray;
+}
+
+.scheda {
+  background: white;
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: left;
+}
+
+h2 {
+  color: teal;
+}
+
+.piede {
+  font-size: 12px;
+  color: gray;
+}
+.bottone {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: darkblue;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.bottone:hover {
+  transform: scale(1.1);
+  background-color: teal;
+}body {
+  background: lightblue;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: darkblue;
+}
+
+.sotto {
+  color: gray;
+}
+
+.scheda {
+  background: white;
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: left;
+}
+
+h2 {
+  color: teal;
+}
+
+.piede {
+  font-size: 12px;
+  color: gray;
+}
+.bottone {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: darkblue;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.bottone:hover {
+  transform: scale(1.1);
+  background-color: teal;
+}body {
+  background: lightblue;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: darkblue;
+}
+
+.sotto {
+  color: gray;
+}
+
+.scheda {
+  background: white;
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: left;
+}
+
+h2 {
+  color: teal;
+}
+
+.piede {
+  font-size: 12px;
+  color: gray;
+}
+.bottone {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: darkblue;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.bottone:hover {
+  transform: scale(1.1);
+  background-color: teal;
+}body {
+  background: lightblue;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: darkblue;
+}
+
+.sotto {
+  color: gray;
+}
+
+.scheda {
+  background: white;
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: left;
+}
+
+h2 {
+  color: teal;
+}
+
+.piede {
+  font-size: 12px;
+  color: gray;
+}
+.bottone {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: darkblue;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.bottone:hover {
+  transform: scale(1.1);
+  background-color: teal;
+}
